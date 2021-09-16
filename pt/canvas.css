@@ -1,0 +1,54 @@
+hmtl{
+	font-family: sans-serif;
+	color: #333
+	font-size: 20px;
+	line-height: 11.5
+	font-weight: 300;
+
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+
+}
+
+
+.header {
+
+	background-color: #215;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('me.jpg') ;
+	background-size: cover;
+	height: 10%;
+	padding: 0rem;
+	color: white;
+	text-align: center;
+	background-attachment: fixed;
+
+
+}
+
+
+<!-- wavy -->
+hl{
+	counter-reset: 70px;
+
+}
+.content{
+	min-height: 70px;
+	padding: 10rem;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.canvas-wrap{
+	max-width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+canvas{
+	display: black;
+	
+}
